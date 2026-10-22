@@ -163,6 +163,7 @@ int main() {
             if (UPDATE_AND_RENDER_GAME_FUNC) {
                 UPDATE_AND_RENDER_GAME_FUNC(&game_memory, &game_input, pFunctions);
             }
+            //DrawLineBezier((Vector2){0, 0}, (Vector2){100, 100}, 3, BLACK);                   // Draw line segment cubic-bezier in-out interpolation
         } EndDrawing();
     }
 
